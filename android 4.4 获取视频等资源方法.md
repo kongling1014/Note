@@ -12,7 +12,7 @@ Android 应用中获取视频资源（支持KitKat+）
 <br>解决方式：
 ---------
 拿到URI以后，判断到底是属于哪种类型的，根据不同类型采取不同的方法<br>
-以下是GIT上开源的一个例子，目的是拿到文件的路径，可以根据需要进行修改<br>
+以下是GIT上开源的一个例子，getpath()方法最终要实现的是拿到文件的路径，在其它项目中可以根据需要进行修改<br>
 ```JAVA
 public static String getPath(final Context context, final Uri uri) {
     final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
