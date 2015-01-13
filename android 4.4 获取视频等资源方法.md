@@ -93,4 +93,5 @@ public static boolean isDownloadsDocument(Uri uri) {
 return "com.android.providers.media.documents".equals(uri.getAuthority());
 }
 ```
-   
+> 示意图
+![](https://github.com/kongling1014/Note/raw/master/note_pic.jpg) 
