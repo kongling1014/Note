@@ -1,5 +1,4 @@
-Note
-====
+
 一.......pomelo2 so库生成
         环境：ubuntu 14
         软件：android ndk r10 for linux   ,   pomelo2 源码  ，gyp
