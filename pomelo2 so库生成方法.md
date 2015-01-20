@@ -28,7 +28,7 @@ sudo apt-get install gyt
 > export LINK=arm-linux-androideabi-g++<br>
 > export PLATFORM=android
 
-将export ANDROID_TOOLCHAIN_DIR=$PWD/android-toolchain这句中的$PWD改为你的libpomelo2代码的根目录
+将`export ANDROID_TOOLCHAIN_DIR=$PWD/android-toolchain`这句中的`$PWD`改为你的libpomelo2代码的根目录
 
 例如：
 > export ANDROID_TOOLCHAIN_DIR=/home/colink/project/libpomelo2/android-toolchain
@@ -39,9 +39,9 @@ sudo apt-get install gyt
 source ~/.bash_profile
 '''
 
-再运行echo $PATH应该能看到我们设置的ANDROID_TOOLCHAIN_DIR
-##5、将android-compile.sh中对应的这7句删掉并保存。
-##6、在libpomelo2目录下运行 ./android-compile.sh <ndk解压出来的目录>，
+再运行`echo $PATH`应该能看到我们设置的`ANDROID_TOOLCHAIN_DIR`
+##5、将`android-compile.sh`中对应的这7句删掉并保存。
+##6、在`libpomelo2`目录下运行``` ./android-compile.sh <ndk解压出来的目录>```，
 例如：
 > ./android-compile.sh /home/colink/project/android-ndk-r10b
 
