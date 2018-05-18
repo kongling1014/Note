@@ -76,4 +76,4 @@ http {
 
 *这里有几点一定要注意：
 1. 证书设置
-2. location 和 proxy_pass 的/斜杠问题
+2. location 和 proxy_pass 的/斜杠问题，[可以看这里有说明](https://www.zifangsky.cn/917.html)
